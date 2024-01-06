@@ -46,5 +46,3 @@ def listdir(path, file_ext='.txt', with_ext=True, with_path='False'):
 
     return filenames
 
-if __name__ == "__main__":
-    print(listdir('../tests/data', file_ext='.*'))
